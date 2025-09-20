@@ -1,2 +1,48 @@
-# proyecto_mora
-Proyecto de aplicación del bootcamp Talento Tech
+# 🌱 Proyecto MORA  
+### Monitoreo y Optimización de Recursos Agrícolas  
+
+---
+
+## 📌 Descripción
+
+**Proyecto MORA** es una iniciativa de ciencia de datos aplicada al sector agrícola colombiano.  
+Su objetivo es **analizar, visualizar y optimizar el uso de recursos agrícolas** a partir de un conjunto de datos que incluye:  
+- Nutrientes del suelo (N, P, K).  
+- Variables ambientales (temperatura, humedad, lluvia, pH).  
+- Información geográfica (departamentos de Colombia).  
+- Catálogo de cultivos.  
+
+Este proyecto busca sentar las bases para **modelos de predicción y recomendaciones inteligentes** para agricultores, potenciando el uso de **Ciencia de Datos + Agricultura de Precisión**.  
+
+---
+
+## 🎯 Objetivos del Proyecto
+1. Realizar un **Análisis Exploratorio de Datos (EDA)** sobre un dataset agrícola.  
+2. Construir un **esquema relacional en SQLite** que represente las relaciones entre departamentos, cultivos y condiciones ambientales.  
+3. Ejecutar **consultas SQL y Pandas** para extraer información clave.  
+4. Crear **dashboards interactivos en Google Looker Studio** para la visualización de patrones y tendencias.  
+5. Establecer las bases para futuras fases de predicción y optimización agrícola.
+
+---
+
+## 🗂️ Estructura del Proyecto
+
+```bash
+├── data/
+│   ├── crop_recommendation_unida.csv    # Dataset principal
+│   └── processed/                       # Datos procesados
+│
+├── notebooks/
+│   ├── fase1_exploracion.ipynb          # Exploración en Pandas + SQL
+│   └── dashboards.ipynb                 # Ejemplos de visualización
+│
+├── sql/
+│   ├── esquema.sql                      # Esquema relacional (SQLite)
+│   └── consultas.sql                    # Consultas de análisis
+│
+├── dashboards/
+│   ├── looker_dashboard.pdf             # Capturas de Looker Studio
+│   └── images/                          # Gráficas generadas
+│
+├── README.md                            # Documentación principal
+└── requirements.txt                     # Librerías necesarias
